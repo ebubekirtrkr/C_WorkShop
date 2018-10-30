@@ -1,8 +1,14 @@
 #include<stdio.h>
+#include<math.h>
 int main(){
-	float a,i;
+	float a;
+	float i=0.001;
 	scanf("%f",&a);
-	for (i = 0.01; i*i < a;i=i+0.01);
-	printf("%.2f\n",i);
+  printf("%f\n",sqrt(a));
+	while(i*i < a)
+	{
+		i+=0.001;
+	}
+	printf("%f\n",i);
 	return 0;
 }
