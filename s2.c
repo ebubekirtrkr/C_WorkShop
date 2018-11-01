@@ -1,1 +1,0 @@
-#include<stdio.h> 2 int main() 3 {float x,d; 4 char y; 5 scanf("%f%c",&x,&y); 6 if (y='f') 57 " 8 d=(x-32)/1.8; 9 printf("%f",d);} r 10 if (y=1c1) 11 id=1.8*x+32; —11 12 printf("%f",x)
