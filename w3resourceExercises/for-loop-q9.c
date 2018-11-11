@@ -14,8 +14,9 @@ The pattern like :
 int main(int argc, char const *argv[])
 {
     int n;
-
-    for (int i = 1; i <= 4; i++)
+    printf("Please enter number of rows that you want : ");
+    scanf("%d",&n);
+    for (int i = 1; i <= n; i++)
     {
 
         for (int j = 1; j <= i; j++)
