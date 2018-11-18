@@ -1,8 +1,8 @@
 #include <stdio.h>
 int recursiveDigitSum(int N);
-int main(int argc, char const *argv[])
+int main()
 {
-    printf("%d\n", recursiveDigitSum(1234567891));
+    printf("%d\n", recursiveDigitSum(123));
     return 0;
 }
 int recursiveDigitSum(int N)
