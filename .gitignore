@@ -1,1 +1,7 @@
 *.exe
+*/*.json
+*/*.out
+*/.vscode
+*.out
+*.sh
+.gitignore
