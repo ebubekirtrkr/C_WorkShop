@@ -4,4 +4,4 @@
 */.vscode
 *.out
 *.sh
-.gitignore
+*.gitignore
